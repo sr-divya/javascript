@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sign Up</h1>
+        <p class="subtitle">It's quick and easy.</p>
+        <hr>
+
+        <form autocomplete="off">
+            <div class="name-row">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Surname">
+            </div>
+
+            <input type="email" placeholder="Mobile number or email address">
+            <input type="password" placeholder="New password">
+
+            <label>Date of birth</label>
+            <div class="dob">
+                <select>
+                    <option>Day</option>
+                    <option>1</option><option>2</option><option>3</option>
+                </select>
+                <select>
+                    <option>Month</option>
+                    <option>Jan</option><option>Feb</option><option>Mar</option>
+                </select>
+                <select>
+                    <option>Year</option>
+                    <option>2000</option><option>2001</option><option>2002</option>
+                </select>
+            </div>
+
+            <label>Gender</label>
+            <div class="gender">
+                <label class="g-box">Female
+                    <input type="radio" name="gender">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="g-box">Male
+                    <input type="radio" name="gender">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="g-box">Custom
+                    <input type="radio" name="gender">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <button type="submit" class="signup-btn">Sign Up</button>
+        </form>
+    </div>
+
+</body>
+<!-- <script src="script.js"> -->
+
+</script>
+</html>

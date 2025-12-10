@@ -1,0 +1,26 @@
+.container {
+    width: 320px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f6f6f6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+#itemList li {
+    list-style: none;
+    padding: 8px;
+    margin: 4px 0;
+    background: white;
+    border-radius: 4px;
+}
