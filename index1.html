@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .content {
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://tse4.mm.bing.net/th/id/OIP.tT7UG7QNOQKvijhtgqq2lAHaE8?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3');
+        } */
+
+        /* ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            background-color: black;
+            padding: 10px 50px; 
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        } */
+
+        /* .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="num">
+        <span>1</span><span>2</span><span>3</span><span>4</span>
+        <span>5</span><span>6</span><span>7</span><span>8</span>
+    </div>
+</body>
+<script>
+   
+
+//     const numDiv = document.querySelector('.num');
+//     const spans = numDiv.querySelectorAll('span');
+
+//     console.dir(spans);
+
+//     for(let i=0;i<spans.length;i++){
+//         if(spans[i].textContent % 2 === 0){
+//             spans[i].style.color = 'red';
+//     }
+// }
+
+    function fetchdata(){
+        return new promise((resolve,reject)=>{
+            setTimeout(()=>{
+                resolve("Data fetched")
+            },2000)
+        });
+    }
+
+    fetchdata().then((data)=>{
+        console.log(data);
+    })
+</script>
+
+</html>

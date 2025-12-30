@@ -1,15 +1,15 @@
 let input=document.querySelector('#searchBox');
-let text=input.ariaValueMax.toLowerCase();
+let text=input.textContent.toLowerCase();
 // let ul=document.querySelectorAll('#itemList');
 
 // let item=input.value().toLowerCase();
-let items=document.querySelectorAll('#itemList li');
+// let items=document.querySelectorAll('#itemList li');
 // console.log(items);
 
 
 input.addEventListener("keyup",function(){
     let item=input.value.toLowerCase();
-    // let items=document.querySelectorAll('#itemList li');
+    let items=document.querySelectorAll('#itemList li');
 
     items.forEach(function(li){
         let text=li.textContent.toLowerCase(); 
